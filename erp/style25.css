@@ -1,0 +1,389 @@
+.body1{
+	background-color: #1d1f38;
+	height: 100vh;
+}
+.green{
+	color: #45b858;
+}
+.gray{
+	color: gray;
+}
+./*loginFrm{
+	border: 1px solid lightgray;
+	font-family: 'Dosis', sans-serif;
+}*
+.form-control{
+	font-family: 'Dosis', sans-serif;
+}
+.loginFrm input{
+	width: 100px;
+}
+/*=================== Login from Facebook Twitter Althor =====================*/
+.circle{
+	border-radius: 50%;
+	margin: 5px;
+	font-size: 35px;
+	/*margin: 0.15em;
+	font-size: 2em; */
+	}
+	
+.fa-twitter{
+	background: #4099FF;
+	color: #FFFFFF;
+	padding: 10px 10px;
+  /*padding: 0.05em 0.07em; */
+	}
+
+.fa-google-plus{
+  color: #FFFFFF;
+  background: #dd4b39;
+  padding: 10px 10px;
+  /*padding: 0.1em 0.1em; */
+  }  
+.fa-facebook{
+	background: #3B5998;
+	color: #FFFFFF;
+	padding: 10px 10px;
+	/*padding: 0.05em 0.3em; */
+	}
+/*================================================*/
+/*=================== Index ======================*/
+.headerIndex{
+	width: 100%
+	height: 50px;
+	background-color: #0a252d;
+}
+.headerIndex h2{
+	margin: 0px 0px 0px 50px;
+	padding: 10px 10px 10px 10px;
+	color: #dfe1df; 
+	font-family: 'Raleway', sans-serif;
+
+}
+.headerIndex-login{
+	font-size: 16px;
+	color: #dfe1df;
+	float: right;
+}
+.headerIndex-login:before{
+	color: black;
+    position: absolute;
+    transform: translate(-50%);
+    content: '\25b2';
+    top: 31px;
+    left: 50%;
+}
+.container{
+	margin: 0 auto;
+	max-width: 100rem;
+	width: 100%;
+	max-height: 100rem;
+	height: 100%;
+}
+.container .col-sm-2{
+	/*background-color: #9aadc2;*/
+	background-color: #0d303a;
+	height: 100vh;
+}
+.container .col-sm-10{
+	background-color: #f8f8f5;
+	/*background-color: #dbdbdb;
+	background-color: #eff0ef; */
+}
+/*=============== Side ===============*/
+.side-index button{
+	margin-left: -14px;
+	width: 115%;
+	padding: 3px 10px 3px 5px;
+	border: 1px solid #0a252d;
+	font-family: 'Athiti', sans-serif;
+	font-size: 18px;
+	color: #e7eaec;
+	background-color: #0d303a;
+	/*background-color: #eff0ef;*/
+}
+/*.side-index a{
+	width: 100%;
+	padding: 3px 10px 3px 5px;
+	border: 1px solid lightgray;
+	font-family: 'Athiti', sans-serif;
+	font-size: 18px;
+	color: #566775;
+	background-color: #eff0ef;
+}*/
+/*================ icon home ====================*/
+.btn-icons{
+	margin: 20px 5px 5px 5px;
+	border: 0px;
+}
+.home{
+	color: white;
+	font-size: 100px;
+}
+.home:hover{
+	color: #e7976d;
+	font-size: 100px;
+}
+.btn-text-home{
+	font-size: 20px;
+}
+.btn-text-home:hover{
+	font-size: 20px;
+}
+
+.calender{
+	color: #fff;
+	font-size: 100px;
+}
+.calender:hover{
+	color: #6de797;
+	font-size: 100px;
+}
+
+.btn-text-calender{
+	font-size: 20px;
+}
+.btn-text-calender:hover{
+	font-size: 20px;
+}
+
+.stock{
+	color: #fff;
+	font-size: 100px;
+}
+.stock:hover{
+	color: #4f303c;
+	font-size: 100px;
+}
+.btn-text-stock{
+	font-size: 20px;
+}
+.btn-text-stock:hover{
+	font-size: 20px;
+}
+
+.edit{
+	color: #fff;
+	font-size: 100px;
+}
+.edit:hover{
+	color: #908568;
+	font-size: 100px;
+}
+.btn-text-profile{
+	font-size: 20px;
+}
+.btn-text-profile:hover{
+	font-size: 20px;
+}
+/*============================================*/
+/*==================== btn1 ==================*/
+#btn1{ 
+	margin: 5% 0% 5% -5%;
+	width: 110%;
+	height: 100%;
+	border: 1px solid lightgray;
+	color: white;
+	background-color: #017b7e;
+}
+#btn2{
+	margin: 5% 0% 5% -3%;
+	width: 107%;
+	height: 100%;
+	border: 1px solid lightgray;
+	color: white;
+	background-color: #017b7e;
+}
+#btn1:hover{
+	margin: 5% 0% 5% -5%;
+	width: 110%;
+	height: 100%;
+	border: 1px solid lightgray;
+	color: black;
+	background-color: #b2d7d8;
+	cursor: pointer;
+}
+#btn2:hover{
+	margin: 5% 0% 5% -5%;
+	width: 110%;
+	height: 100%;
+	border: 1px solid lightgray;
+	color: black;
+	background-color: #b2d7d8;
+	cursor: pointer;
+}
+/*.btn1-dashboard{
+	background-color: #a28487;
+}
+.btn1-chart{
+	background-color: #d89781;
+}
+.btn1-calender{
+	background-color: #6b635b;
+}
+.btn1-accounting{
+	background-color: #b35421;
+}
+.btn1-product{
+	background-color: #0f3641;
+}
+.btn1-employee{
+	background-color:#243b35;
+}
+.btn1-setting{
+	background-color: #017b7e;
+} */
+/*================ % =========================*/
+.btn-sales{
+	margin: -5% 0% 0% 0%;
+}
+#btns2{
+	width: 117px;
+	height: 100px;
+	margin: 1% 0% 2% 1%;
+	border: 1px solid lightgray;
+}
+.sideGray{
+	padding: 7% 1% 1% 1%;
+	text-align: center;
+	font-size: 45px;
+	/*color: #b2b2b2;*/
+	color: white;
+}
+.percen{
+	padding-top: 60px;
+	color: green;
+	font-size: 23px;
+	color: white;
+	font-family: 'Gamja Flower', cursive;
+}
+.btn-sales .ii{
+	font-size: 18px;
+	color: white;
+	font-family: 'Gamja Flower', cursive;
+}
+
+#btns2:hover{
+	background-color: #005658;
+	cursor: pointer;
+}
+/*============================================*/
+/*============================================*/
+.OverviewPieChart{
+	background-color: #f9e8ef;
+	padding: 10px 10px 10px 10px;
+}
+.overviewH3{
+	font-family: 'Gamja Flower', cursive;
+	text-align: center;
+}
+.showProfile{
+	border: 1px solid lightgray;
+}
+.showProfile .bgHeaderProfile{
+	width: 100%;
+}
+.showProfile .showProfile2{
+	bottom: 0;
+	width: 100%;
+	height: 70%;
+	background-color: #c1dee7;
+	position: absolute;
+	opacity: 0.6;
+}
+.circleProfile{
+	margin-top: 10%;
+	margin-left: 38%;
+	width: 20%;
+	height: 33%;
+	border-radius: 50%;
+	background-color: white;
+	position: absolute;
+	border: 1px solid lightgray;
+}
+.profileName{
+	margin-top: 3%;
+	margin-left: 37%;
+	position: absolute;
+	font-family: 'Dosis', sans-serif;
+	color: #237b90;
+}
+.profileDetail{
+	margin-top: 36%;
+	margin-left: 28%;
+	position: absolute;
+	font-family: 'Gamja Flower', cursive;
+	font-size: 140%;
+	color: white;
+}
+/*======================================*/
+/*======================================*/
+/*============= employee.php ===============*/
+.brn-addEmp{
+	border-radius: 50%;
+	background-color: white;
+	border: 1px solid lightgray;
+	padding: 5px 8px 5px 8px;
+}
+.plusColor{
+	color: lightgray;
+	font-size: 35px;
+	border: 0px;
+}
+.plusColor:hover{
+	font-size: 35px;
+	color: #218ca5;
+	border: 0px;
+}
+.addEmp{
+	width: 70%;
+	margin: 0% 5% 3% 13%;
+	height: auto;
+	
+}
+/*===================== editProfile Icon =======================*/
+/*=========================================================*/
+.editProfile{
+	font-size: 20px;
+	color: gray;
+}
+.editProfile:hover{
+	font-size: 20px;
+	color: green;
+}
+/*===================== Delete Profile Icon =======================*/
+/*=========================================================*/
+.delProfile{
+	font-size: 20px;
+	color: gray;
+}
+.delProfile:hover{
+	font-size: 20px;
+	color: red;
+}
+/*================== viewerIcon ========================*/
+/*======================================================*/
+.viewer{
+	float: right;
+	margin-top: -3%;
+}
+.viewerIcon{
+	color: gray;
+}
+.viewerIcon:hover{
+	color: #25444d;
+}
+#boxEmployee{
+	display: inline-block;
+	border: 1px solid lightgray;
+	padding: 1% 2% 1% 2%;
+	margin: 1% 1% 1% 1%;
+	width: 250px;
+}
+/*=================================================*/
+/*=============== addCustomers ====================*/
+.addCustomers:hover{
+	color: #32757f;
+	text-decoration: none;
+}
+/*=============== edit Customer ==================*/

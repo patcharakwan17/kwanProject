@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css?family=Athiti|Black+Han+Sans|Dosis|Gamja+Flower|Gothic+A1|Raleway|Sriracha" rel="stylesheet">
+    <!-- Icon application -->
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+    <!-- Chart -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+	<center>
+		<!--<div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-3" >
+						<button class="btn-icons"><i class="fas fa-home home"><br>
+							<div class="btn-text-home">home</div></i>
+						</button>
+					</div>
+					<div class="col-sm-3" >
+						<button class="btn-icons"><i class="far fa-calendar-alt calender"><br>
+							<div class="btn-text-calender">Calender</div></i>
+						</button>
+					</div>
+					<div class="col-sm-3" >
+						<button class="btn-icons"><i class="fas fa-dolly-flatbed stock"><br>
+							<div class="btn-text-stock">Stock</div></i>
+						</button>
+					</div>
+					<div class="col-sm-3" >
+						<button class="btn-icons"><i class="fas fa-cogs edit"><br>
+							<div class="btn-text-profile">Profile</div></i>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>-->
+
+<!--=============================================================================================================-->
+    <div>
+    	<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4" >
+					<div id="all-chart" style="height: 250px;"></div>
+				</div>
+
+				<div class="col-sm-8" >
+					<div class="row">
+						<div class="col-sm-4">col-sm-4
+						</div>
+						<div class="col-sm-4">col-sm-42
+						</div>
+						<div class="col-sm-4">col-sm-422
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4" >
+					fff
+				</div>
+
+				<div class="col-sm-8" >
+					<div id="line-example" style="height: 250px;"></div>
+				</div>
+			</div>
+		</div>
+    </div>		
+	</center>
+
+	<script type="text/javascript">
+		Morris.Donut({
+			element: 'all-chart',
+			data: [
+			{label: "Download Sales", value: 12, color: "#8399c5"}, //seablue
+			{label: "In-Store Sales", value: 30, color: "#b197aa"}, //violet
+			{label: "Mail-Order Sales", value: 20, color: "#ffa149"} //Orenge
+			]
+		});
+
+		Morris.Line({
+			element: 'line-example',
+			data: [
+			{ y: '2006', a: 100, b: 90 },
+			{ y: '2007', a: 75,  b: 65 },
+            { y: '2008', a: 50,  b: 40 },
+            { y: '2009', a: 75,  b: 65 },
+            { y: '2010', a: 50,  b: 40 },
+            { y: '2011', a: 75,  b: 65 },
+            { y: '2012', a: 100, b: 90 }
+           ],
+            xkey: 'y',
+            ykeys: ['a', 'b'],
+            labels: ['Series A', 'Series B']
+        });
+	</script>
+</body>
+</html>

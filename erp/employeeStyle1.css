@@ -1,0 +1,118 @@
+.addEmp{
+	width: 100%;
+	background-color: #ddd;
+	margin-left: 100px;
+}
+.submitEditEmployee{
+	float: right; 
+	border: 1px solid lightgray; 
+	border-radius: 5px; 
+	padding: 3px 3px 3px 3px; 
+	margin: 10px 5px 10px 10px; 
+	width: 100px; 
+	background-color: #fff;
+	float: right;
+}
+.submitEditEmployee:hover{
+	float: right; 
+	border: 1px solid lightgray; 
+	border-radius: 5px; 
+	padding: 3px 3px 3px 3px; 
+	margin: 10px 5px 10px 10px; 
+	width: 100px; 
+	background-color: #25444d;
+	color: #fff;
+}
+
+.addEmp label{
+	color: #4c7786;
+	font-family: 'Raleway', sans-serif;
+	float: left;
+	margin-bottom: 3px;
+}
+.inpEmp{
+	color: #4c7786;
+	font-family: 'Raleway', sans-serif;
+	float: left;
+	border: 1px solid lightgray;
+	width: 100%;
+	height: 30px;
+	padding: 3px 3px 3px 5px;
+	border-radius: 8px 0px 8px 0px;
+	font-size: 13px;
+}
+
+/*===================== editProfile =======================*/
+/*=========================================================*/
+.editProfile{
+	font-size: 16px;
+	color: gray;
+}
+/*================== viewerIcon ========================*/
+/*======================================================*/
+.viewer{
+	float: right;
+	margin-top: -3%;
+}
+.viewerIcon{
+	color: gray;
+}
+.viewerIcon:hover{
+	color: #25444d;
+}
+#boxEmployee{
+	display: inline-block;
+	border: 1px solid lightgray;
+}
+.col-sm-4{
+	margin: 1% 0% 1% 0%;
+}
+.col-sm-3{
+	margin: 1% 0% 1% 0%;
+}
+.col-sm-4 #boxEmployee{
+	width: 100%;
+	height: 100%;
+	padding: 2% 2% 2% 2%;
+}
+.col-sm-3 #boxEmployee{
+	width: 100%;
+	height: 100%;
+	padding: 2% 2% 2% 2%;
+}
+/*================================================*/
+/*=================== Index ======================*/
+.headerIndex{
+	width: 100%
+	height: 50px;
+	background-color: #0a252d;
+}
+.headerIndex h2{
+	margin: 0px 0px 0px 50px;
+	padding: 10px 10px 10px 10px;
+	color: #dfe1df; 
+	font-family: 'Raleway', sans-serif;
+
+}
+.headerIndex-login{
+	font-size: 16px;
+	color: #dfe1df;
+	float: right;
+}
+.container{
+	margin: 0 auto;
+	max-width: 100rem;
+	width: 100%;
+	max-height: 100rem;
+	height: 100%;
+}
+.container .col-sm-2{
+	/*background-color: #9aadc2;*/
+	background-color: #0d303a;
+	height: 100vh;
+}
+.container .col-sm-10{
+	background-color: #f8f8f5;
+	/*background-color: #dbdbdb;
+	background-color: #eff0ef; */
+}

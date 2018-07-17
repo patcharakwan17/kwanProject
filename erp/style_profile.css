@@ -1,0 +1,27 @@
+.profileShowPict img{
+	width: 30%;
+	border: 1px solid lightgray;
+}
+.btnProfileEdit{
+	width: 40%;
+	color: #220f08;
+	border: 1px solid lightgray;
+	background-color: white;
+	font-family: 'Gothic A1', sans-serif;
+}
+.btnProfileEdit:hover{
+	width: 40%;
+	border: 1px solid lightgray;
+	background-color: #8399c5;
+	color: white;
+	font-family: 'Gothic A1', sans-serif;
+}
+/*=============================================*/
+/*=============================================*/
+/*============== profile edit =================*/
+.tbl-editProf td{
+	text-align: center;
+}
+.lefts{
+	text-align: right;
+}
